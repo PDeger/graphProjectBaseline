@@ -1,0 +1,13 @@
+# Inhalt
+- Package graphProjectBaseline:
+  - Methode zum Einlesen von Adjazenzmatrix Graphen in form von Textdateienl
+  - Input Handler mit Methoden zum einfachen Einlesen von Konsoleneingaben
+  - Vorgefertigte Objekte, zum Darstellen von Knoten und Kanten
+- Package Beispielimplementierungen
+  - Verschiedene Beispielimplementierungen von Algorithmen für unterschiedliche Problemstellungen
+  - Implementierte Algorithmen: Ford-Fulkerson, Dijkstras, Prims
+  - Implementierte Problemstellungen: Kürzester Weg, maximaler Fluss, Bipartites Matching, minimaler Spannbaum
+ - Graph Data
+  - Eine Sammlung unterschiedlicher .txt Dateien, die unterschiedlich große und unterschiedlich aufgebaute Graphen in Form von Matrizen enthalten
+  - Enthaltene Graph Größen: 10,20,30,50,100,1000 und 2500 Knoten
+  - Ein Python Sktipt, dass zum generieren von Graph Daten verwendet werden kann
