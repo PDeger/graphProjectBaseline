@@ -20,20 +20,8 @@ public class Graph {
 	
 	
 	private ArrayList<Node> makeNodeList(String fileName, String dir) {
-		ArrayList<Node> nodes = generateEmptyNodes(getGraphSize(fileName)); 
-		System.out.println(nodes.size());
-		int[][] graphDate = readGraphData(fileName, dir);
-        
-		//Den generierten die Gewichteten und gerichteten Kanten hinzufügen
-		for(int i = 0; i <= nodes.size()-1; i++) {
-			for(int j = 0; j <= nodes.size()-1; j++) {
-				if(graphDate[i][j] != 0) {
-					int weight = graphDate[i][j];
-					nodes.get(i).addEdge(new Edge(weight, nodes.get(i), nodes.get(j)));
-				}
-			}
-		}
-        return nodes;
+	//Adjazenzliste kann hier implementiert werden
+        return null;
 	}
 	
 	private int[][] readGraphData(String fileName, String dir) {
@@ -58,7 +46,7 @@ public class Graph {
             for(int i = 1; i <= graphsize-1; i++) {
             	line = reader.readLine();
 
-            	//Erstes Zeichen in einer Zeile enthällt immer den Knotennamen, desshalb muss man diesen hier entfernen
+            	//Erstes Zeichen in einer Zeile enthÃ¤llt immer den Knotennamen, desshalb muss man diesen hier entfernen
                 String[] numbers = line.split(" ");
                 numbers = Arrays.copyOfRange(numbers, 1, numbers.length);
 
@@ -109,13 +97,13 @@ public class Graph {
 	}
 
 
-	//holt die Graph Größe aus dem Dateinamen
+	//holt die Graph GrÃ¶ÃŸe aus dem Dateinamen
 	private int getGraphSize(String s) {
 		String[] stringParts = s.split("x");
 		return Integer.parseInt(stringParts[0]);
 	}
 	
-	//erstelle so viele neue Knoten, wie für den Graphen gebraucht werden
+	//erstelle so viele neue Knoten, wie fÃ¼r den Graphen gebraucht werden
 	private ArrayList<Node> generateEmptyNodes(int count) {
 		ArrayList<Node> list = new ArrayList<Node>();
 		
