@@ -7,7 +7,7 @@
   - Verschiedene Beispielimplementierungen von Algorithmen für unterschiedliche Problemstellungen
   - Implementierte Algorithmen: Ford-Fulkerson, Dijkstras, Prims
   - Implementierte Problemstellungen: Kürzester Weg, maximaler Fluss, Bipartites Matching, minimaler Spannbaum
- - Graph Data
+- Graph Data
   - Eine Sammlung unterschiedlicher .txt Dateien, die unterschiedlich große und unterschiedlich aufgebaute Graphen in Form von Matrizen enthalten
   - Enthaltene Graph Größen: 10,20,30,50,100,1000 und 2500 Knoten
   - Ein Python Sktipt, dass zum generieren von Graph Daten verwendet werden kann
