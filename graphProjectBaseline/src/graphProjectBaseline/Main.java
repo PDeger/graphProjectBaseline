@@ -12,20 +12,20 @@ public class Main {
 		
 		/*
 		 * Akzeptiert "Matrix" oder "List", gibt an, in welcher form der Graph ausgelesen wird. 
-		 * Nur die Matrixdarstellung ist implementiert, die Listendarstellung müsst ihr selbst implementieren,
+		 * Nur die Matrixdarstellung ist implementiert, die Listendarstellung mÃ¼sst ihr selbst implementieren,
 		 * wenn ihr sie verwenden wollt. 
-		 * Hilfestellung für die Listendarstellung: Objekte für die Kanten und Knoten liegen schon vor -> Siehe "Node" und "Edge". 
-		 * Es gibt auch ander Möglichekiten für die Implementierung, dies soll nur als Denkanstoß dienen
+		 * Hilfestellung fÃ¼r die Listendarstellung: Objekte fÃ¼r die Kanten und Knoten liegen schon vor -> Siehe "Node" und "Edge". 
+		 * Es gibt auch ander MÃ¶glichekiten fÃ¼r die Implementierung, dies soll nur als DenkanstoÃŸ dienen
 		 */
 		String type = "Matrix";
 
 		/*
-		 * Den Input Handler könnt ihr einen Objekten und Funktionen als Parameter mitgeben, 
+		 * Den Input Handler kÃ¶nnt ihr einem Objekten oder Funktionen als Parameter mitgeben, 
 		 * um eine Einfache Eingabefunktion zu haben
 		 * Er hat 2 Funktionen: 
 		 * get input: leist eine beliebige Zeichenfolge aus der Konsole ein und gibt sie als String wieder
-		 * getNumericInput: Liest eine Zeile ein und gibt sie als Integer weider. Ist die Eingabe kein gültiger Int,
-		 * wird die Eingabeaufforderung so lange wiederholt, bis man einen gültigen Int eingibt
+		 * getNumericInput: Liest eine Zeile ein und gibt sie als Integer weider. Ist die Eingabe kein gÃ¼ltiger Int,
+		 * wird die Eingabeaufforderung so lange wiederholt, bis man einen gÃ¼ltigen Int eingibt
 		 * Verwendung:
 		 * InputHandler in = new InputHandler();
 		 * String s = in.getInput();
