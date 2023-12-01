@@ -3,7 +3,6 @@ package graphProjectBaseline;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		//Name der Datei
 		String fileName = "10x10Graph.txt";
